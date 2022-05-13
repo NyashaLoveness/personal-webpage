@@ -36,7 +36,6 @@
     font-weight: 800;
     font-size: 2em;
     padding-bottom: 0.5em;
-    /* margin-top: 5%; */
 }
 .intro {
     padding-left: 0.5em;
@@ -134,8 +133,8 @@ table, th, td {
     text-align: center;
     line-height: 1.5em;
 }
-.detail {
-    margin-bottom: 1em;
+.detail{
+    padding: 1em;
 }
 .footer {
     background-color: rgb(234, 244, 244);
@@ -158,4 +157,13 @@ table, th, td {
     .first-word {
         margin-left: 15px;
     }
+    .pic {
+        width: 13em;
+        height: 11em;
+    }
+    .subj-cont, .lang-cont {
+        width: 50%;
+        /* overflow-y: scroll; */
+    }
+
 }
