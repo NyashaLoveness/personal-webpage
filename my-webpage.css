@@ -163,7 +163,6 @@ table, th, td {
     }
     .subj-cont, .lang-cont {
         width: 50%;
-        /* overflow-y: scroll; */
     }
 
 }
