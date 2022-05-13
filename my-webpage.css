@@ -151,7 +151,9 @@ table, th, td {
 }
 @media (max-width:800px) {
     .selfie {
-        display:none;
+        height: 8em;
+        width: 6.5em;
+        border-radius: 0%;
     }
     .first-word {
         margin-left: 15px;
