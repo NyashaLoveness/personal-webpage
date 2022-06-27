@@ -73,19 +73,15 @@
     padding: 1em;
 }
 
-.secondary-cont {
+.subj-cont {
     border: 1px;
-    flex-wrap: wrap;
     display: flex; 
-    width: 90%; 
-    justify-content: center;
+    width: 80%; 
     text-align: center;
-    margin-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.city-cont, .lang-cont, .subj-cont {
-    width: 33.3%;
-    border: 1px;
-}
+
 .city-cont {
     background-color: rgb(204, 227, 222);
     margin-right: auto;
@@ -93,12 +89,14 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+    border: 1px; 
 }
 .lang-cont {
     background-color: rgb(204, 227, 222);
     margin-right: 2em;
     display: inline-block;
     margin: 2em;
+    border: 1px;
 }
 table, th, td {
     border: 1px solid;
@@ -111,11 +109,26 @@ table, th, td {
     margin-right: auto;
     margin-bottom: 1em;
 }
-.subj-cont {
-    margin: 2em;
+.subjects {
     background-color: rgb(204, 227, 222);
-    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
 }
+.head-subj1, .head-subj2, .head-subj3 {
+    font-weight: 600;  
+}
+.sub1, .sub2, .sub3 {
+    padding: 0.5em;
+}
+.sub1-cont, .sub2-cont, .sub3-cont {
+    flex: 1;
+}
+.robotics, .coding, .business {
+    width: 10em;
+    height: 10em;
+    padding: 0.75em;
+}
+
 .pic {
     width: 15em;
     display: block;
@@ -161,7 +174,7 @@ table, th, td {
         width: 13em;
         height: 11em;
     }
-    .subj-cont, .lang-cont {
+    .subj-cont {
         width: 50%;
     }
 
